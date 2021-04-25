@@ -1,0 +1,47 @@
+{
+  "name": "react-html-input-range",
+  "version": "1.0.0",
+  "description": "React component for inputting numeric values within a range",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "react",
+    "form",
+    "input",
+    "range"
+  ],
+  "author": "Oleksandr Slukovskyi",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@storybook/addon-actions": "^6.2.8",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.1.9",
+    "@types/react": "^17.0.0",
+    "babel-loader": "^8.2.2",
+    "postcss": "^8.2.1",
+    "postcss-input-range": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.1.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "dependencies": {}
+}

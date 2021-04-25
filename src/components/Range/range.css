@@ -1,0 +1,35 @@
+.input-range {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  appearance: none;
+  z-index: 200;
+  border: 1px solid #e6e6e6;
+  background-color: #e6e6e6;
+  margin: 0;
+  padding: 0;
+}
+
+.input-range:focus{
+  border: 0 !important;
+  outline: none !important;
+}
+
+.input-range::disabled {
+  opacity: 0.9;
+}
+
+.input-range::range-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  background-color: #555;
+}
+
+.horizontal-lowest-first {
+  transform:rotate(0deg);
+}
+
+.input-range_vertical {
+  transform:rotate(90deg);
+}
